@@ -1,3 +1,59 @@
-*.gguf
+# Virtual environments
 venv/
+venv_*/
+.venv/
+env/
+ENV/
+.pip/
+
+# Environment variables
 .env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.gguf
+*.onnx
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# Training outputs
+outputs/
+out*/
+checkpoints/
+checkpoint-*/
+runs/
+wandb/
+
+# Embeddings and large arrays
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+
+# IDE and agents
+.agent/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary directories
+offload_temp/
+unsloth_compiled_cache/
